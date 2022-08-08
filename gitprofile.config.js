@@ -2,89 +2,86 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'mar-jac', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['mar-jac.github.io], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'mar-jac',
+    twitter: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    website: 'https://arifszn.github.io',
+    medium: '',
+    dev: '',
+    website: 'https://mar-jac.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'mar.jacq0296@gmail.com',
   },
   skills: [
     'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
+    'Express.js',
+    'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
+    'Chef',
+    'Chef Inspec',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'HTML',
+    'Python',
+    'Ruby',
+    'Bash',
+    'Linux',
     'Bootstrap',
   ],
   experiences: [
     {
-      company: 'Monstarlab Bangladesh',
-      position: 'Backend Engineer II',
-      from: 'September 2021',
+      company: 'Meta (Facebook, Inc.)',
+      position: 'Aprrentice Systems Tech Engineer',
+      from: 'March 2021',
       to: 'Present',
     },
     {
-      company: 'My Offer 360 Degree',
-      position: 'Web Application Developer',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: 'CUNY Tech Prep',
+      position: 'Software Engineer Intern',
+      from: 'August 2020',
+      to: 'May 2021',
+    },
+    {
+      company: 'Brooklyn College',
+      position: 'Technical Support Engineer',
+      from: 'September 2018',
+      to: 'March 2021',
     },
   ],
   education: [
     {
-      institution: 'American International University-Bangladesh',
-      degree: 'Bachelor of Science',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Cantonment College, Jessore',
-      degree: 'Higher Secondary Certificate (HSC)',
-      from: '2012',
-      to: '2014',
-    },
-    {
-      institution: 'Chowgacha Shahadat Pilot High School',
-      degree: 'Secondary School Certificate (SSC)',
-      from: '2007',
-      to: '2012',
+      institution: 'City University of New York (CUNY), Brooklyn College',
+      degree: 'BS, Multimedia Computing',
+      from: '',
+      to: '2020',
     },
   ],
+  
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-    id: 'G-WLLB5E14M6', // Please remove this and use your own tag id or keep it empty
+    id: '', // Please remove this and use your own tag id or keep it empty
   },
   hotjar: {
-    id: '2617601', //  Please remove this and use your own id or keep it empty
+    id: '', //  Please remove this and use your own id or keep it empty
     snippetVersion: 6,
   },
   themeConfig: {
