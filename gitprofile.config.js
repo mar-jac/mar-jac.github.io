@@ -40,6 +40,8 @@ const config = {
     'Bash',
     'Linux',
     'Bootstrap',
+    'Amazon Web Services',
+    'Google Cloud Platform',
   ],
   experiences: [
     {
