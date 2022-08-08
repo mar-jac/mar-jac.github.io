@@ -67,6 +67,7 @@ const config = {
     {
       institution: 'City University of New York (CUNY), Brooklyn College',
       degree: 'BS, Multimedia Computing',
+      from: 'start',
       to: '2020',
     },
   ],
