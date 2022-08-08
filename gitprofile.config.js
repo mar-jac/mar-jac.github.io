@@ -7,7 +7,7 @@ const config = {
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: ['mar-jac.github.io', 'mar-jac', 'zip-code-api-lab', 'learn-sequelize', 'navchandar', 'Lyrical'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['mar-jac.github.io', 'mar-jac', 'zip-code-api-lab', 'learn-sequelize', 'navchandar', 'Lyrical', 'zip-code-react-lab'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
